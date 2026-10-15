@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI4Chem 共学</title>
-  <meta name="description" content="课题组 AI for Chem 共学班资料库与学习手册：讨论记录、成员笔记与整理讲义。">
+  <title>AI4Chem 研习社</title>
+  <meta name="description" content="课题组 AI for Chem 研习社资料库与学习手册：讨论记录、成员笔记与整理讲义。">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%A7%AA</text></svg>">
   <link rel="stylesheet" href="web/vendor/darklight.css" title="docsify-darklight-theme">
   <style>
@@ -37,6 +37,8 @@
       font-size: clamp(2.3rem, 6vw, 3.3rem); font-weight: 700;
       letter-spacing: .05em; margin: 1.2rem 0 0; text-shadow: 0 2px 24px rgba(0,0,0,.35);
     }
+    /* docsify 会把封面标题包进 a.anchor>span，主题变量会把 span 染成正文色，这里强制继承白色 */
+    .cover h1 a, .cover h1 span { color: inherit; text-decoration: none; }
     .cover h1::after {
       content: ""; display: block; width: 64px; height: 4px; border-radius: 99px;
       margin: 20px auto 0; background: linear-gradient(90deg, #2dd4bf, #38bdf8);
@@ -164,7 +166,7 @@
   <noscript>本站使用 docsify 渲染，需要启用 JavaScript。也可以直接在 <a href="https://github.com/clidxhk/AI4Chem">GitHub 仓库</a> 阅读 Markdown 原文。</noscript>
   <script>
     window.$docsify = {
-      name: '🧪 AI4Chem 共学',
+      name: '🧪 AI4Chem 研习社',
       nameLink: '/',
       homepage: 'README.md',
       coverpage: true,
