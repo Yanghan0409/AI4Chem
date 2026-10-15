@@ -6,23 +6,23 @@
 
 ### 第一部分：为什么化学研究者需要理解 AI for Chem
 
-- [课程版：第一部分](课程版/第一部分-AI-for-Chem的第一次讨论-课程版.md) — 保留组内讨论背景，供课程成员使用。
-- [通用版：第一部分](通用版/第一部分-AI-for-Chem的第一次讨论-通用版.md) — 匿名化整理，适合公开阅读。
+- [课程版：第一部分](课程版/第一部分-AI-for-Chem的第一次讨论-课程版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/course/1)）— 保留组内讨论背景，供课程成员使用。
+- [通用版：第一部分](通用版/第一部分-AI-for-Chem的第一次讨论-通用版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/general/1)）— 匿名化整理，适合公开阅读。
 
 ### 第二部分：计算机的本质
 
-- [课程版：第二部分](课程版/第二部分-AI-for-Chem的第二次讨论-课程版.md)
-- [通用版：第二部分](通用版/第二部分-AI-for-Chem的第二次讨论-通用版.md)
+- [课程版：第二部分](课程版/第二部分-AI-for-Chem的第二次讨论-课程版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/course/2)）
+- [通用版：第二部分](通用版/第二部分-AI-for-Chem的第二次讨论-通用版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/general/2)）
 
 ### 第三部分：数据和信息
 
-- [课程版：第三部分](课程版/第三部分-AI-for-Chem的第三次讨论-课程版.md)
-- [通用版：第三部分](通用版/第三部分-AI-for-Chem的第三次讨论-通用版.md)
+- [课程版：第三部分](课程版/第三部分-AI-for-Chem的第三次讨论-课程版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/course/3)）
+- [通用版：第三部分](通用版/第三部分-AI-for-Chem的第三次讨论-通用版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/general/3)）
 
 ### 第四部分：机器学习与神经网络
 
-- [课程版：第四部分](课程版/第四部分-AI-for-Chem的第四次讨论-课程版.md)
-- [通用版：第四部分](通用版/第四部分-AI-for-Chem的第四次讨论-通用版.md)
+- [课程版：第四部分](课程版/第四部分-AI-for-Chem的第四次讨论-课程版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/course/4)）
+- [通用版：第四部分](通用版/第四部分-AI-for-Chem的第四次讨论-通用版.md)（[短链接](https://clidxhk.github.io/AI4Chem/#/m/general/4)）
 
 ## 两个版本怎么选
 
