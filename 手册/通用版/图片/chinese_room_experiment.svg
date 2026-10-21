@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 440" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 20px; font-weight: bold; fill: #0f766e; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #64748b; }
+      .box-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 16px; font-weight: bold; fill: #1e293b; }
+      .box-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 13px; fill: #475569; line-height: 1.4; }
+      .label-highlight { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: bold; fill: #0f766e; }
+      .card-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 13px; font-weight: 500; fill: #0f172a; }
+      .banner-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 14px; font-weight: bold; fill: #042f2e; }
+      .arrow { stroke: #0d9488; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0d9488" />
+    </marker>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="840" height="440" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="40" y="42" class="title">约翰·塞尔“中文房间”思想实验（The Chinese Room）</text>
+  <text x="40" y="64" class="subtitle">1980 年提出：形式化符号操作（语法）能否等价于真实的主观理解（语义）？</text>
+
+  <!-- The Chinese Room Container -->
+  <rect x="230" y="85" width="380" height="265" rx="14" fill="#ffffff" stroke="#0d9488" stroke-width="2.5" stroke-dasharray="6,4" filter="url(#shadow)" />
+  <rect x="230" y="85" width="380" height="34" rx="12" fill="#ccfbf1" />
+  <text x="420" y="108" text-anchor="middle" class="label-highlight">封闭的中文房间（类比：计算机硬件 + 内部存储）</text>
+
+  <!-- Inside the Room: Human / CPU -->
+  <g transform="translate(260, 135)">
+    <rect width="145" height="115" rx="10" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5" />
+    <circle cx="72" cy="40" r="16" fill="#0d9488" opacity="0.85" />
+    <path d="M 52,72 Q 72,56 92,72" stroke="#0d9488" stroke-width="3" fill="none" stroke-linecap="round" />
+    <text x="72" y="94" text-anchor="middle" class="box-title" font-size="14">操作者（CPU）</text>
+    <text x="72" y="110" text-anchor="middle" class="subtitle" font-size="11">完全不懂中文语义</text>
+  </g>
+
+  <!-- Inside the Room: Rulebook / Program -->
+  <g transform="translate(435, 135)">
+    <rect width="145" height="115" rx="10" fill="#fef3c7" stroke="#fde68a" stroke-width="1.5" />
+    <!-- Book icon -->
+    <path d="M 50,30 C 60,26 72,28 72,32 L 72,62 C 72,58 60,56 50,60 Z" fill="#d97706" opacity="0.85" />
+    <path d="M 94,30 C 84,26 72,28 72,32 L 72,62 C 72,58 84,56 94,60 Z" fill="#b45309" opacity="0.85" />
+    <text x="72" y="84" text-anchor="middle" class="box-title" font-size="14">规则手册（程序）</text>
+    <text x="72" y="100" text-anchor="middle" class="subtitle" font-size="11">“若见符号 A 则查表输出 B”</text>
+  </g>
+
+  <!-- Room Bottom Clarification -->
+  <text x="420" y="285" text-anchor="middle" class="box-desc" font-weight="600" fill="#0f766e">操作机制：纯粹按照句法规则（Syntax）机械匹配与状态转移</text>
+  <text x="420" y="305" text-anchor="middle" class="subtitle">操作者无需理解符号究竟代表“化学分子”还是“日常问候”</text>
+
+  <!-- Left: Input Slip -->
+  <g transform="translate(35, 155)">
+    <rect width="150" height="90" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)" />
+    <text x="75" y="28" text-anchor="middle" class="box-title" font-size="13" fill="#64748b">外部输入（数据/问题）</text>
+    <rect x="20" y="40" width="110" height="36" rx="6" fill="#f1f5f9" stroke="#e2e8f0" />
+    <text x="75" y="63" text-anchor="middle" class="card-text">“苯环有几个碳？”</text>
+  </g>
+  <!-- Arrow In -->
+  <line x1="185" y1="200" x2="225" y2="200" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="205" y="190" text-anchor="middle" class="subtitle" font-size="11">输入狭缝</text>
+
+  <!-- Right: Output Slip -->
+  <g transform="translate(655, 155)">
+    <rect width="150" height="90" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)" />
+    <text x="75" y="28" text-anchor="middle" class="box-title" font-size="13" fill="#64748b">外部输出（计算结果）</text>
+    <rect x="20" y="40" width="110" height="36" rx="6" fill="#f1f5f9" stroke="#e2e8f0" />
+    <text x="75" y="63" text-anchor="middle" class="card-text">“苯环由 6 个碳组成”</text>
+  </g>
+  <!-- Arrow Out -->
+  <line x1="610" y1="200" x2="650" y2="200" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="630" y="190" text-anchor="middle" class="subtitle" font-size="11">输出狭缝</text>
+
+  <!-- Outside Evaluation Tag -->
+  <g transform="translate(655, 260)">
+    <rect width="150" height="48" rx="8" fill="#e0f2fe" stroke="#7dd3fc" />
+    <text x="75" y="20" text-anchor="middle" class="card-text" font-size="11" fill="#0369a1">外部观察者判定：</text>
+    <text x="75" y="38" text-anchor="middle" class="card-text" font-size="12" font-weight="bold" fill="#0284c7">“对答如流，精通化学！”</text>
+  </g>
+
+  <!-- Bottom Takeaway Banner -->
+  <rect x="40" y="370" width="760" height="44" rx="10" fill="#ccfbf1" stroke="#5eead4" stroke-width="1.5" />
+  <text x="420" y="397" text-anchor="middle" class="banner-text">科学启示：机制上的形式符号处理（Syntax）≠ 心智上的主观理解（Semantics），科研应用应重在可检验的功能与实证</text>
+</svg>
